@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 20161219
 light
