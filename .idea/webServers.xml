@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="4a42c3b0-757e-40c5-9200-4f79074f486f" name="pi" url="http://192.168.31.61">
-        <fileTransfer host="192.168.31.61" port="22" rootFolder="/home/pi/catkin_ws/src" accessType="SFTP">
+        <fileTransfer host="192.168.31.61" port="22" rootFolder="/home/pi/catkin_ws/src/vechicle_move_control" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
