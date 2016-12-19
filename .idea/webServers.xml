@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4a42c3b0-757e-40c5-9200-4f79074f486f" name="pi" url="http://192.168.31.61">
+        <fileTransfer host="192.168.31.61" port="22" rootFolder="/home/pi/catkin_ws/src" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
