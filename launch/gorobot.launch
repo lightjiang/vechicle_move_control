@@ -1,6 +1,6 @@
 <launch>
     <inclued file="$(find vechicle_move_control)/launch/rplidar.launch">
     </inclued>
-    <node name="LaserScanListener" pkg="vechicle_move_control" type="laser_scan.py">
+    <node name="laser_scan" pkg="vechicle_move_control" type="laser_scan.py">
     </node>
 </launch>

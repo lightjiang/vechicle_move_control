@@ -1,9 +1,12 @@
+#!/usr/bin/env python
 # coding=utf-8
 """
 light
 20161216
 process the laser data
 """
+import roslib
+roslib.load_manifest('vechicle_move_control')
 import rospy
 from sensor_msgs.msg import LaserScan
 from std_msgs.msg import String
@@ -14,7 +17,7 @@ import math
 
 class LaserHandler(object):
     def __init__(self):
-        rospy.init_node("LaserScanListener", anonymous=True)
+        rospy.init_node("laser_scan", anonymous=True)
         self.pub = rospy.Publisher('move_control', String, queue_size=1)
         rospy.on_shutdown(self.shutdown)
         rospy.Subscriber("scan", LaserScan, self.run, queue_size=1)
