@@ -34,7 +34,7 @@ class LaserData(object):
             if i < 1:
                 self.push(k*self.angle_increment, i)
             k += 1
-        self.dynamic_map.save("/home/workstation/Desktop/1.jpg")
+        self.dynamic_map.save("/home/pi/catkin_ws/src/vechicle_move_control/1.jpg")
         print(time.clock() - self.start_time)
 
     def push(self, angle, L):
