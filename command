@@ -4,4 +4,4 @@ rosrun rqt_graph rqt_graph
 
 rosrun gmapping slam_gmapping scan:=scan
 
-
+roslaunch vechicle_move_control gorobot.launc
